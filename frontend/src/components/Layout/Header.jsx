@@ -10,7 +10,7 @@ export default function Header({ dark, setDark }) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-black/5 dark:border-white/10 bg-white/70 dark:bg-slate-900/50 backdrop-blur-md">
-      <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
+      <div className="mx-auto max-w-8xl px-4 py-3 flex items-center justify-between">
         <Brand />
 
         <div className="flex items-center gap-2">
